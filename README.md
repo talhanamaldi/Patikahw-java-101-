@@ -1,2 +1,2 @@
 # Patikahw
-Patikadan yaptığım ödevler için oluşturulmuş repository
+Patikadan yaptığım ödevler için oluşturulmuş bir repository
