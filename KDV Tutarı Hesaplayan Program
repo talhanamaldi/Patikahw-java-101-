@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class kdv_hesap_program {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Tutarı giriniz : ");
+		double amount = scan.nextDouble();		
+		double kdv1 = 0.18;
+		double kdv2 = 0.08;
+		double kdvamount;
+		
+		if(amount >= 0 && amount <= 1000) {
+			kdvamount = amount * kdv1;
+			System.out.println(amount + kdvamount);
+		}else if(amount > 1000) {
+			kdvamount = amount * kdv2;
+			System.out.println(amount + kdvamount);
+		}
+
+	}
+
+}
