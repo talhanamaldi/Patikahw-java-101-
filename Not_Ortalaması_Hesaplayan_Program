@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class not_ortalamasi {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Matematik notu:");
+		int math = scan.nextInt();
+		System.out.println("Fizik notu:");
+		int phy = scan.nextInt();
+		System.out.println("Kimya notu:");
+		int chem = scan.nextInt();
+		System.out.println("Türkçe notu:");
+		int türk = scan.nextInt();
+		System.out.println("Tarih notu:");
+		int hist = scan.nextInt();
+		System.out.println("Müzik notu:");
+		int music = scan.nextInt();
+		
+		double result = (math+phy+chem+türk+hist+music)/6.0;
+		System.out.println("Ortamala :" + result);
+		
+		boolean issixty = result >= 60;
+		System.out.println(issixty ? "Sınıfı Geçti" : "Sınıfta Kaldı");
+		
+
+	}
+
+}
