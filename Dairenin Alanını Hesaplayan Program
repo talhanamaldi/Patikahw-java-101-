@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Yarı çapı giriniz : ");
+		int r = scan.nextInt();
+		System.out.println("Açıyı giriniz : ");
+		double angle = scan.nextDouble();
+		
+		double area = (3.14*r*r*angle)/360;
+		
+		System.out.println(area);
+
+	}
+
+}
