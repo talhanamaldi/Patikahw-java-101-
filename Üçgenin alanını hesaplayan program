@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Hipotenüs {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("1.kenar");
+		int a = scan.nextInt();
+		System.out.println("2.kenar");
+		int b = scan.nextInt();
+		System.out.println("3.kenar");
+		int c = scan.nextInt();
+		
+		double u = (a+b+c)/2.0;
+		double perimeter = 2*u;
+		
+		double area = Math.sqrt(u*(u-a)*(u-b)*(u-c));
+		System.out.println(area);
+		
+	}
+
+}
