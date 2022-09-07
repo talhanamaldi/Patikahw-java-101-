@@ -17,11 +17,11 @@ public class Main {
                 
         double combination = (factorial(n)*1.0)/(factorial(r)*factorial(n-r));
         
-        System.out.println(combination);
+        System.out.println((int)combination);
 
 	}
 	
-	static int factorial(int n) {
+	static double factorial(int n) {
 		if(n == 0) return 1;
 		else return(n*factorial(n-1));
 	}
