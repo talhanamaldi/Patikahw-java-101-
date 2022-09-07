@@ -11,7 +11,7 @@ public class Main {
 		int ebob = 0;
 		
 		int counter = 1;
-		while(counter < Math.max(n1, n2)) {
+		while(counter <= Math.max(n1, n2)) {
 			if(n1 % counter == 0) {
 			if(n2 % counter == 0) ebob = counter;
 			}
