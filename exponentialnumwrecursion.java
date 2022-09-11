@@ -14,6 +14,7 @@ public class Main {
 	}
 	
 	public static int exponential(int n, int m) {
+		if(m == 0) return 1;
 		if(m == 1) return n;
 		else return n*exponential(n, m-1);
 	}
