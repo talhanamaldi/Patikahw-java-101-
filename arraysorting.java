@@ -24,6 +24,7 @@ public class Main {
             arr[min_idx] = arr[i];
             arr[i] = temp;
         }
+        System.out.print("Sıralama : ");
         
         for (int i=0; i<n; ++i)
             System.out.print(arr[i]+" ");
