@@ -9,9 +9,8 @@ public class Main {
             int count = 1;  
             for(int j = i+1; j < arr.length; j++){  
                 if(arr[i] == arr[j]){  
-                    count++;  
-                    //To avoid counting same element again  
-                    fr[j] = visited;  
+                    count++;    
+                    fr[j] = visited;  // önemli
                 }  
             }  
             if(fr[i] != visited)  
